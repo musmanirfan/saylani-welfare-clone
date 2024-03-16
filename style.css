@@ -40,7 +40,7 @@ body {
 }
 
 .navbar-collapse {
-    margin-left: -120px;
+    /* margin-left: -120px; */
 }
 
 .dropdown:hover>.dropdown-menu {
@@ -56,7 +56,7 @@ body {
     font-size: 1em;
     font-weight: 600;
     position: relative;
-    width: fit-content;
+    /* width: fit-content; */
     display: flex !important;
     gap: 2px !important;
 }
@@ -351,6 +351,10 @@ body {
 }
 
 
+.footer-img>img{
+    width: 90% !important;
+}
+
 
 hr {
     border: 1px solid #E9E9E9;
@@ -546,7 +550,7 @@ hr {
 
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 576px) {    
     body {
         width: 100%;
         overflow-x: hidden !important;
@@ -554,7 +558,7 @@ hr {
 
     .top-nav {
         display: flex;
-        padding-left: 8%;
+        /* padding-left: 8%; */
         background-color: #E9E9E9;
         line-height: 3em;
         width: 100%;
@@ -567,7 +571,7 @@ hr {
     }
 
     .nav-link {
-        margin-left: 25%;
+        /* margin-left: 25%; */
     }
 
     .header-btn {
